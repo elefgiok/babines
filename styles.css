@@ -1,0 +1,68 @@
+body {
+    background-color: white;
+    color: #ffffff
+
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.content {
+    align-content: center;
+}
+
+
+.content h1 { 
+    font-size: 25px;
+    text-align: center;
+    color: black;
+}
+
+.earth-wrapper {
+    position: relative;
+}
+
+.tree {
+    position: absolute;
+    z-index: 200;
+    left: 44%;
+    width: 120px;
+    top: -30px;
+}
+
+.burnt-tree {
+    position: absolute;
+    z-index: 200;
+    right: 15%;
+    width: 120px;
+    top: 44%;
+}
+
+.drop {
+    position: absolute;
+    z-index: 200;
+    left: 42%;
+    width: 120px;
+    bottom: -100px;
+}
+
+.cross {
+    position: absolute;
+    z-index: 200;
+    left: 15%;
+    width: 120px;
+    top: 44%;
+}
+
+.earth {
+    padding: 100px 10px 5px 10px;
+    margin: 50px auto;
+    background-color: white;
+    display: block;
+    border-radius: 50px;
+    width: 80%;
+    max-width: 350px;
+}
